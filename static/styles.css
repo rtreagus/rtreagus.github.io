@@ -35,11 +35,12 @@ body {
 }
 .projects .list-group {
     color: black;
-    width: 50%;
+    width: 100%;
 }
 .projects .list-group-item{
      margin-bottom: 10px;
      border-radius: 4px !important;
+     text-align: center;
 }
 .projects .list-group a{
     color: black;
