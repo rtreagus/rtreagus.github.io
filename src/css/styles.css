@@ -1,0 +1,28 @@
+@import "./sections.css";
+@import "./nav.css";
+
+:root {
+	--border-width: 3px;
+	--border-color: white;
+}
+
+body {
+	background: #151a28;
+	background-blend-mode: multiply;
+	min-block-size: 100dvh;
+	display: grid;
+	place-items: center;
+}
+
+.body_wrapper {
+	margin: 0;
+	padding: 0;
+}
+
+.main__display {
+	max-width: 750px;
+}
+
+.selected {
+	display: block;
+}

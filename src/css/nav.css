@@ -1,0 +1,23 @@
+.nav__wrapper {
+	text-align: center;
+	border-top-style: solid;
+	padding-top: 20px;
+	margin-top: 30px;
+}
+
+.nav__button {
+	background-color: transparent;
+	color: var(--border-color);
+	border-radius: 0;
+	padding: 12px 30px;
+	margin: -6px;
+}
+
+.nav__button:hover {
+	background-color: var(--border-color);
+	color: black;
+}
+
+.nav__button:hover {
+	border-color: var(--border-color);
+}
